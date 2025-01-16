@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parent{
+    width: 100%;
+    position: relative; /* Ensure proper positioning */
+  --svg-width: calc(100%); 
+}
